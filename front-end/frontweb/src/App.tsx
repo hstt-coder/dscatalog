@@ -1,13 +1,9 @@
-import Navbar from './components/Navbar';
+import Home from './pages/Home';
 import './assets/styles/custom.scss';
 import './App.css';
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-    </>
-  );
+  return <Home />;
 };
 
 export default App;
